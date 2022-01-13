@@ -362,8 +362,9 @@ h6 {
 .post-intro {
 	color: var(--deepShade);
 	font-size: 14px;
-	/* height: 70px; */
-	overflow-y: scroll;
+	overflow-y: hidden;
+	height: 70px;
+	text-align: justify;
 }
 
 #contact-form {
