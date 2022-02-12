@@ -102,16 +102,16 @@
         <div class="about-me">
           <h4>More about me</h4>
 
-          <p>I love breaking down problems and solving them through technology and it's tools', teaching helps me share what I know, learn from others and solidify concepts .</p>
+          <p>I love breaking down problems and solving them through technology and it's tools', taking feedback and building better frontend solutions.</p>
 
-          <p>While I keep busy learning and teaching concepts, I still take interviews in search of a great team and projects that interest me.</p>
+          <p>While I keep busy learning concepts and testing them out, I still take interviews in search of a great team and projects that interest me.</p>
 
           <hr>
 
           <h4>TOP EXPERTISE</h4>
 
-          <p>Frontend Developer with primary focus on JavaScript: <br><a target="_blank"
-               href="#">View Resume</a></p>
+          <p>Frontend Developer | Angularwith primary focus on JavaScript: <br><a target="_blank"
+               href="https://drive.google.com/file/d/188mq5kKd7D8EHX5oyIDccc3Q5NZ33WCz/view?usp=sharing">View Resume</a></p>
 
           <div id="skills">
             <ul>
@@ -209,29 +209,37 @@
         <label for="name">Name</label>
         <input class="input-field"
                type="text"
+               id="name"
                name="name">
 
         <label for="name">Subject</label>
         <input class="input-field"
                type="text"
+               id="subject"
                name="subject">
 
         <label for="name">Email</label>
         <input class="input-field"
+               id="email"
                type="email"
                name="email">
 
         <label for="name">Message</label>
         <textarea class="input-field"
+                  id="message"
                   name="message"></textarea>
 
-        <input id="submit-btn"
-               type="submit"
-               value="Send">
+        <button class="submit-btn"
+                id="submit-btn"
+                type="submit"
+                value="Send">Send</button>
       </form>
     </div>
   </section>
 
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
   <script type="text/javascript"
           src="script.js"></script>
 </body>
